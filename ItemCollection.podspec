@@ -9,14 +9,14 @@ Pod::Spec.new do |spec|
 
   spec.description  = "In progress.."
 
-  spec.homepage     = "https://github.com/giuglea/ItemCollection"
+  spec.homepage     = "https://github.com/giuglea/ItemCollection.git"
   spec.license      = "MIT"
   spec.author       = "giuglea"
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "12.0"
 
-  spec.source       = { :git => "https://github.com/giuglea/ItemCollection", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/giuglea/ItemCollection.git", :tag => "#{spec.version}" }
 
 
-  s.source_files        = "ItemCollection"
+  spec.source_files        = "ItemCollection"
 
 end
